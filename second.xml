@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/medName"
+            android:text="Paracetamol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+             />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="3dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="180dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*Also known as acetaminophen"
+                />
+<TextView
+    android:layout_marginTop="20dp"
+    android:textColor="#000000"
+    android:textSize="15dp"
+    android:layout_marginLeft="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="*Medication used to treat pain and fever"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* It is typically used for mild to moderate pain relief"/>
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*The use of the intravenous form for pain of sudden onset in people in the emergency department is supported by limited evidence"/>
+</LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

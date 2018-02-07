@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo"
+            android:id="@+id/imageView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="Asclepius"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+
+            />
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:text="@string/button"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#455A64"
+            android:shadowColor="#E8EAF6"
+            android:background="@drawable/my_button_bg"
+
+            />
+    </LinearLayout>
+</LinearLayout>
